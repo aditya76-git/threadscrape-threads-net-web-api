@@ -84,6 +84,14 @@ session_data = {
 api = ThreadScrape(session_data)
 ```
 
+## 📌 Note
+
+Every time you log in with your Threads account, the previous session data expires. This means that any session values obtained during a previous login session, such as `sessionid`, `fb_dtsg`, and `x-csrftoken`, will no longer work. Make sure to update these values with the latest session data after each login to ensure `ThreadScrape` continue to function correctly.
+
+LogIn Once and obtain the session data and don't logout. If you will logout you will have to update session data again
+
+
+
 ## 🔍 How to Find sessionid and csrftoken cookie?
 
 - `sessionid` and `csrftoken` cookie is required to authenticate against `Threads` in order to have access to the required services.
@@ -96,6 +104,13 @@ api = ThreadScrape(session_data)
 
 > **Note:** While cookies can contain sensitive information, the sessionid and csrftoken cookie value is required for authentication and direct communication with the Threads API within the scope of this open-source project. Rest assured that your cookies will not be sent to any external server; it is solely used for interacting with Thread's services through the project's codebase. However, caution is advised when sharing this cookie value outside the context of this project, as it could potentially lead to unauthorized access to your Threads account.
 
+
+## 🔍 How to Find fb_dtsg payload value
+[STEP BY STEP GUIDE](https://graph.org/How-to-Find-Your-fb-dtsg-Payload-Value-09-10)
+
+<a href="https://graph.org/How-to-Find-Your-fb-dtsg-Payload-Value-09-10">
+  <img src="https://i.imgur.com/DgY0plu.png" alt="Finding the fb_dtsg Payload Value">
+</a>
 
 ## 👤 USER
 
