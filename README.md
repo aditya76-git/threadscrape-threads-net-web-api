@@ -8,6 +8,9 @@
 
 <br />
 
+<a href="https://trackgit.com">
+<img src="https://us-central1-trackgit-analytics.cloudfunctions.net/token/ping/lmkqrkdh2nde8l3bf4cl" alt="trackgit-views" />
+</a>
 <!-- <img src="https://i.imgur.com/y3L6XfN.png" align="right" /> -->
 
 # ThreadScrape - Threads.net WEB-API
